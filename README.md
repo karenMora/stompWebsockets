@@ -91,6 +91,8 @@ Para ver cómo manejar esto desde el manejador de eventos STOMP del servidor, re
 5. Haga commit de lo realizado. "git commit -m "PARTE FINAL"."
 
 
+![](img/cuadrilateros.png)
+
 # PARTE 5
 
 1. La aplicación propaga correctamente los puntos entre todas las instancias abierta de la misma, cuando hay sólo un dibujo.
