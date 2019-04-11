@@ -26,13 +26,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <script src="/app.js"></script>
 
     </head>
-
-
-    
     <body onload="app.init()">
-        X:<input id="x" type="number"/>
-        Y:<input id="y" type="number"/>        
-        <button onclick="app.publishPoint($('#x').val(),$('#y').val())">Send point</button>
-        <canvas id="canvas" width="800" height="600"></canvas>
+        <br>
+        id:<input id="iddibujo" type="number"/>
+        <button onclick="app.conectar($('#iddibujo').val())">Connect</button>
+        <canvas id="canvas" width="800" height="600" style="border:1px solid #000000; background-color: azure"></canvas>    
     </body>
 </html>
